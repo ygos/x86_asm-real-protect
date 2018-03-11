@@ -32,7 +32,7 @@
   digit:
          xor dx,dx
          div si
-         mov [bx],dl                   ;保存数位
+         mov [bx],di                   ;保存数位
          inc bx
          loop digit
 
